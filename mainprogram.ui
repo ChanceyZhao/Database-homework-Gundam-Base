@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainProgram</class>
+ <widget class="QWidget" name="MainProgram">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1198</width>
+    <height>843</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>30</y>
+     <width>1221</width>
+     <height>821</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">#frame{
+background-image: url(:/4.png);
+
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>60</y>
+      <width>91</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+color: #efefef;
+border-radius:10px;
+padding:2px 4px;
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>name</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>code</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>model</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>type</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>camp</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>60</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Select As</string>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>60</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+color: #efefef;
+border-radius:10px;
+padding:2px 4px;
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>150</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+color: #efefef;
+border-radius:10px;
+padding:2px 4px;
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Select All</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>60</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+color: #efefef;
+border-radius:10px;
+padding:2px 4px;
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Select</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>450</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+color: #efefef;
+border-radius:10px;
+padding:2px 4px;
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Delect</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>250</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+color: #efefef;
+border-radius:10px;
+padding:2px 4px;
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Edit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>350</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+color: #efefef;
+border-radius:10px;
+padding:2px 4px;
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Add New</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>130</y>
+      <width>901</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#tableView{
+color: #efefef;
+background:rgb(50,50,50,200);
+font: 14pt &quot;微软雅黑&quot;;
+padding:2px 4px;
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>1010</x>
+      <y>550</y>
+      <width>171</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+color: #efefef;
+border-radius:10px;
+padding:2px 4px;
+font: 10pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:rgb(50,50,50,300);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>1160</x>
+      <y>0</y>
+      <width>31</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(50,50,50,200);
+font: 10pt &quot;BIZ UDPGothic&quot;;
+color: #efefef;
+padding:2px 4px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>X</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
